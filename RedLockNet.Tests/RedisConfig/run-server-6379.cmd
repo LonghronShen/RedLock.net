@@ -3,7 +3,7 @@
 setlocal
 
 if not defined REDIS_PATH (
-	set REDIS_PATH=..\..\packages\redis-64.3.0.500\tools
+	set REDIS_PATH=..\packages\redis-64.3.0.503\tools
 )
 
 echo %REDIS_PATH%\redis-server.exe
